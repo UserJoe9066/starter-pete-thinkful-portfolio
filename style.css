@@ -51,7 +51,7 @@ a:hover {
   color: #f77f00;
 }
 
-nav a {
+header a {
   padding-left: 20px;
 }
 
@@ -75,4 +75,38 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+p.left {
+  text-align: left;
+}
+
+li.left {
+  text-align: left;
+}
+
+p.size {
+  font-size: 14px;
+}
+
+p.center {
+  text-align: center;
+}
+
+.article {
+  display: flex;
+  padding: 5px;
 }
